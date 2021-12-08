@@ -14,7 +14,7 @@ const FileUploaderDropArea = forwardRef((props, ref) => {
             element.removeEventListener('dragover', handleDragOver);
             element.removeEventListener('drop', handleDrop);
         }
-    }, [ref]);  
+    }, [ref, handleDragOver, handleDrop]);  
 
     return (
         <div className="uploader__drop-area" ref={ ref }>
