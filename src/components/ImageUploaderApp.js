@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useContext, useState } from 'react';
+import React, { useRef, useContext, useState } from 'react';
 import FileUploaderDropArea from './FileUploaderDropArea';
 import FileUploaderButton from './FileUploaderButton';
 import BarLoader from "react-spinners/BarLoader";
